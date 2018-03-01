@@ -1,11 +1,73 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+/*colors*/
+html {
+  font-size: 62.5%; }
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  margin: 0;
-}
+  margin: 0; }
+
+.top {
+  background: linear-gradient(#1c5380, #06365f);
+  height: 40vh;
+  position: absolute; }
+
+.bottom {
+  background: white;
+  height: 60vh; }
+
+.main-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 5.8rem; }
+
+.container {
+  background: url("../img/frame.png") no-repeat;
+  margin: 0 auto;
+  background-size: 100% 100%; }
+
+.container-words {
+  padding: 1.2rem 3.2rem; }
+
+.left {
+  margin: 0 3.2rem; }
+
+.right {
+  margin: 0 3.2rem; }
+
+.login-button {
+  background-color: #1c5380;
+  display: flex;
+  border-radius: 0.1rem;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+  border: 1px solid #164063;
+  margin: 1.6rem;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.login-logo {
+  margin-right: 1.2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.right-header {
+  display: flex;
+  justify-content: space-between; }
+
+.footer {
+  position: absolute;
+  bottom: 1.2rem;
+  top: 700px;
+  left: 350px;
+  display: flex;
+  justify-content: space-around; }
+
+a {
+  text-decoration: none;
+  color: #06365f; }
+
+/*# sourceMappingURL=style.css.map */

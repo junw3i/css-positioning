@@ -1,0 +1,94 @@
+/*colors*/
+$dark-blue: #06365f;
+$light-blue: #1c5380;
+
+html {
+  font-size: 62.5%;
+}
+
+// Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 5.8rem;
+$desktop-breakpoint: 45rem;
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.top {
+	background: linear-gradient($light-blue, $dark-blue);
+	height: 40vh;
+	position: absolute;
+}
+
+.bottom {
+	background: white;
+	height: 60vh;
+
+}
+
+.main-body {
+	display: flex;
+  	justify-content: space-between;
+  	padding: $xl-size;
+}
+
+.container {
+	background: url("../img/frame.png") no-repeat;
+	margin: 0 auto;
+	background-size: 100% 100%;
+}
+
+.container-words {
+	padding: $s-size $l-size;
+}
+
+.left {
+	margin: 0 $l-size;
+}
+
+.right {
+	margin: 0 $l-size;
+}
+
+.login-button {
+	background-color: $light-blue;
+	display: flex;
+	border-radius: 0.1rem;
+	align-items: center;
+	color: white;
+	justify-content: space-around;
+	border: 1px solid darken($light-blue, 7%);
+	margin: $m-size;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.login-logo {
+	margin-right: $s-size;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.right-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer {
+	position: absolute;
+	bottom: $s-size;
+	display: flex;
+	justify-content: space-around;
+}
+
+a {
+	text-decoration: none;
+	color: $dark-blue;
+}
